@@ -1,0 +1,4 @@
+Running: xsim.dir/Siec_Neuronowa_TBench_behav/xsimk.exe -simmode gui -wdb Siec_Neuronowa_TBench_behav.wdb -simrunnum 0 -socket 56753
+Design successfully loaded
+Design Loading Memory Usage: 4948 KB (Peak: 4948 KB)
+Design Loading CPU Usage: 15 ms

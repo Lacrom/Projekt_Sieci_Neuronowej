@@ -1,0 +1,303 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Jun 11 22:39:36 2021
+# Process ID: 3456
+# Current directory: C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.runs/synth_1
+# Command line: vivado.exe -log Siec_Neuronowa.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Siec_Neuronowa.tcl
+# Log file: C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.runs/synth_1/Siec_Neuronowa.vds
+# Journal file: C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Siec_Neuronowa.tcl -notrace
+Command: synth_design -top Siec_Neuronowa -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4444 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 572.117 ; gain = 241.918
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Siec_Neuronowa' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Siec_Neuronowa.vhd:30]
+	Parameter b bound to: 4 - type: integer 
+	Parameter r bound to: 3 - type: integer 
+	Parameter b bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'Neuron' declared at 'C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:9' bound to instance 'NEU1' of component 'Neuron' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Siec_Neuronowa.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'Neuron' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:25]
+	Parameter r bound to: 3 - type: integer 
+	Parameter b bound to: 4 - type: integer 
+	Parameter b bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'packageCall' declared at 'C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Funk_Aktywac.vhd:7' bound to instance 'pack1' of component 'packageCall' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'packageCall' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Funk_Aktywac.vhd:18]
+	Parameter b bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'packageCall' (1#1) [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Funk_Aktywac.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Neuron' (2#1) [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:25]
+	Parameter r bound to: 3 - type: integer 
+	Parameter b bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'Neuron' declared at 'C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:9' bound to instance 'NEU2' of component 'Neuron' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Siec_Neuronowa.vhd:130]
+	Parameter r bound to: 3 - type: integer 
+	Parameter b bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'Neuron' declared at 'C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:9' bound to instance 'NEU3' of component 'Neuron' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Siec_Neuronowa.vhd:139]
+INFO: [Synth 8-3491] module 'MUX' declared at 'C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/MUX.vhd:6' bound to instance 'MUX1' of component 'MUX' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Siec_Neuronowa.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'MUX' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/MUX.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'MUX' (3#1) [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/MUX.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Siec_Neuronowa' (4#1) [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Siec_Neuronowa.vhd:30]
+WARNING: [Synth 8-3331] design MUX has unconnected port CLK
+WARNING: [Synth 8-3331] design MUX has unconnected port RESET
+WARNING: [Synth 8-3331] design packageCall has unconnected port clk
+WARNING: [Synth 8-3331] design packageCall has unconnected port n[7]
+WARNING: [Synth 8-3331] design packageCall has unconnected port n[6]
+WARNING: [Synth 8-3331] design packageCall has unconnected port n[5]
+WARNING: [Synth 8-3331] design packageCall has unconnected port n[4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 645.691 ; gain = 315.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 645.691 ; gain = 315.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 645.691 ; gain = 315.492
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'V_reg' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Siec_Neuronowa.vhd:151]
+WARNING: [Synth 8-327] inferring latch for variable 'wykonano_reg' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Siec_Neuronowa.vhd:186]
+WARNING: [Synth 8-327] inferring latch for variable 'neuron_1_reg' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Siec_Neuronowa.vhd:124]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 645.691 ; gain = 315.492
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 6     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Siec_Neuronowa 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+Module packageCall 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module Neuron 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'NEU1/weight_reg[1][3:0]' into 'NEU1/weight_reg[1][3:0]' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:51]
+INFO: [Synth 8-4471] merging register 'NEU2/weight_reg[1][3:0]' into 'NEU2/weight_reg[1][3:0]' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:51]
+INFO: [Synth 8-4471] merging register 'NEU3/weight_reg[1][3:0]' into 'NEU3/weight_reg[1][3:0]' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:51]
+WARNING: [Synth 8-3936] Found unconnected internal register 'NEU3/n_tym_reg' and it is trimmed from '8' to '4' bits. [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:68]
+WARNING: [Synth 8-3936] Found unconnected internal register 'NEU2/n_tym_reg' and it is trimmed from '8' to '4' bits. [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:68]
+WARNING: [Synth 8-3936] Found unconnected internal register 'NEU1/n_tym_reg' and it is trimmed from '8' to '4' bits. [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:68]
+INFO: [Synth 8-4471] merging register 'NEU1/weight_reg[2][3:0]' into 'NEU1/weight_reg[2][3:0]' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:51]
+INFO: [Synth 8-4471] merging register 'NEU2/weight_reg[2][3:0]' into 'NEU2/weight_reg[2][3:0]' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:51]
+INFO: [Synth 8-4471] merging register 'NEU3/weight_reg[2][3:0]' into 'NEU3/weight_reg[2][3:0]' [C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd:51]
+INFO: [Synth 8-3886] merging instance 'V_reg[0]' (LD) to 'V_reg[1]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 803.367 ; gain = 473.168
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 812.207 ; gain = 482.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 812.387 ; gain = 482.188
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 812.387 ; gain = 482.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 812.387 ; gain = 482.188
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 812.387 ; gain = 482.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 812.387 ; gain = 482.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 812.387 ; gain = 482.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 812.387 ; gain = 482.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     6|
+|3     |LUT3 |    13|
+|4     |LUT4 |    15|
+|5     |LUT6 |    56|
+|6     |FDCE |     2|
+|7     |FDRE |    48|
+|8     |LD   |     7|
+|9     |IBUF |    19|
+|10    |OBUF |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+---------+------+
+|      |Instance |Module   |Cells |
++------+---------+---------+------+
+|1     |top      |         |   168|
+|2     |  MUX1   |MUX      |     1|
+|3     |  NEU1   |Neuron   |    42|
+|4     |  NEU2   |Neuron_0 |    42|
+|5     |  NEU3   |Neuron_1 |    43|
++------+---------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 812.387 ; gain = 482.188
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 812.387 ; gain = 482.188
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 812.387 ; gain = 482.188
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 824.301 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 900.605 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  LD => LDCE: 7 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 900.605 ; gain = 595.242
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 900.605 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.runs/synth_1/Siec_Neuronowa.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Siec_Neuronowa_utilization_synth.rpt -pb Siec_Neuronowa_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 11 22:40:12 2021...

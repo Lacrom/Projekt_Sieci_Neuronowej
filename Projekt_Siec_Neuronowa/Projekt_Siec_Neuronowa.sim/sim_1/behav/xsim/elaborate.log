@@ -1,0 +1,21 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto e74825a157384dbc99625572a52ec3ee --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Siec_Neuronowa_TBench_behav xil_defaultlib.Siec_Neuronowa_TBench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package xil_defaultlib.hardlims_funl
+Compiling architecture packagecall_arch of entity xil_defaultlib.packageCall [packagecall_default]
+Compiling architecture neuron_arch of entity xil_defaultlib.Neuron [neuron_default]
+Compiling architecture mux_arch of entity xil_defaultlib.MUX [mux_default]
+Compiling architecture siec_neuronowa_arch of entity xil_defaultlib.Siec_Neuronowa [siec_neuronowa_default]
+Compiling architecture siec_neuronowa_tbench_arch of entity xil_defaultlib.siec_neuronowa_tbench
+Built simulation snapshot Siec_Neuronowa_TBench_behav

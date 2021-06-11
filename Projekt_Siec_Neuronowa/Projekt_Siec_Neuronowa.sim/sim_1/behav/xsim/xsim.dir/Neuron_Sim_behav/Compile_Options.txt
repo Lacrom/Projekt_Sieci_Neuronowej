@@ -1,0 +1,1 @@
+-wto "e74825a157384dbc99625572a52ec3ee" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Neuron_Sim_behav" "xil_defaultlib.Neuron_Sim" -log "elaborate.log" 

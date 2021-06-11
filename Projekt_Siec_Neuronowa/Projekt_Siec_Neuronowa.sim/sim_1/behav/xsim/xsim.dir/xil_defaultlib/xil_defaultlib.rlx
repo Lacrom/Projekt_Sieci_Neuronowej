@@ -1,0 +1,11 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sim_1/new/Neuron_Sim.vhd,1623430678,vhdl,,,,neuron_sim,,,,,,,,
+C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sim_1/new/Siec_Neuronowa_TBench.vhd,1623443815,vhdl,,,,siec_neuronowa_tbench,,,,,,,,
+C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Funk_Aktywac.vhd,1623431150,vhdl,,,,packagecall,,,,,,,,
+C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Funkcja_Aktywacji.vhd,1623301244,vhdl,C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Funk_Aktywac.vhd,,,hardlims_funl,,,,,,,,
+C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/MUX.vhd,1623443534,vhdl,,,,mux,,,,,,,,
+C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd,1623440555,vhdl,,,,neuron,,,,,,,,
+C:/Projektvivado/Projekt_Siec_Neuronowa/Projekt_Siec_Neuronowa.srcs/sources_1/new/Siec_Neuronowa.vhd,1623443245,vhdl,,,,siec_neuronowa,,,,,,,,

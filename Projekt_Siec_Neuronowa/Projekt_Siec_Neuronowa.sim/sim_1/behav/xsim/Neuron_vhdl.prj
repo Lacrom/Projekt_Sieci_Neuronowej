@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Projekt_Siec_Neuronowa.srcs/sources_1/new/Siec_Neuronowa.vhd" \
+"../../../../Projekt_Siec_Neuronowa.srcs/sources_1/new/Neuron.vhd" \
+"../../../../Projekt_Siec_Neuronowa.srcs/sources_1/new/Funk_Aktywac.vhd" \
+"../../../../Projekt_Siec_Neuronowa.srcs/sources_1/new/Funkcja_Aktywacji.vhd" \
+"../../../../Projekt_Siec_Neuronowa.srcs/sim_1/new/Neuron_Sim.vhd" \
+"../../../../Projekt_Siec_Neuronowa.srcs/sim_1/new/Siec_Neuronowa_TBench.vhd" \
+
+# Do not sort compile order
+nosort
